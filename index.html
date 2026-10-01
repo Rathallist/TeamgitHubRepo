@@ -1,54 +1,59 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TeamGit</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-
-  <header class="site-header">
-    <div class="site-header__inner">
-
-      <!-- Logo textuel -->
-      <a href="index.html" class="logo" aria-label="TeamGit, retour à l'accueil">
-        <span class="logo__graph" aria-hidden="true">
-          <span class="logo__node"></span>
-          <span class="logo__node logo__node--branch"></span>
-          <span class="logo__node"></span>
-        </span>
-        <span class="logo__text">Team<span class="logo__git">Git</span></span>
-      </a>
-
-      
-      <button class="nav-toggle" type="button"
-              aria-controls="main-nav" aria-expanded="false">
-        <span class="nav-toggle__bar"></span>
-        <span class="nav-toggle__bar"></span>
-        <span class="nav-toggle__bar"></span>
-        <span class="visually-hidden">Ouvrir le menu</span>
-      </button>
-
-      <!-- Menu de navigation -->
-      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
-        <ul class="main-nav__list">
-          <li><a href="index.html" class="main-nav__link" aria-current="page">Accueil</a></li>
-          <li><a href="projets.html" class="main-nav__link">Projets</a></li>
-          <li><a href="equipe.html" class="main-nav__link">Équipe</a></li>
-          <li><a href="contact.html" class="main-nav__link">Contact</a></li>
-        </ul>
-        <a href="connexion.html" class="main-nav__cta">Se connecter</a>
-      </nav>
-
+    <section class="services-section">
+  <div class="container">
+    <h2 class="section-title">Nos Services</h2>
+    <div>
+        <h2>Groupe Groupe</h2>
+        <p>Dans le groupe groupe l'humaine est mis au centre.Le groupe groupe fait en priorité des travaux de groupes
+             car nous pensons que la meilleure façon d'avancer est en groupe. </p>
+        <button>Groupe</button>
+        
     </div>
-  </header>
+    
+    <div class="services-grid">
+      <!-- Carte Service 1 -->
+      <article class="service-card">
+        <h3 class="service-title">Développement Web</h3>
+        <p class="service-description">
+          Conception de sites vitrines et d'applications sur-mesure, performants et adaptés à tous vos besoins.
+        </p>
+      </article>
 
   <main>V</main>
+      <!-- Carte Service 2 -->
+      <article class="service-card">
+        <h3 class="service-title">Design UI/UX</h3>
+        <p class="service-description">
+          Création d'interfaces intuitives et modernes pour offrir une expérience utilisateur optimale et engageante.
+        </p>
+      </article>
 
-  <script src="js/header.js"></script>
+      <!-- Carte Service 3 -->
+      <article class="service-card">
+        <h3 class="service-title">Référencement & SEO</h3>
+        <p class="service-description">
+          Optimisation de votre visibilité sur les moteurs de recherche pour attirer un trafic qualifié et régulier.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
 </body>
+<footer>
+    <p>Team GitHub</p>
+
+    <p>© 2026 Team GitHub - Tous droits réservés</p>
+    <nav>
+        <a href="">Accueil</a>
+        <a href="">Services</a>
+        <a href="">Contact</a>
+    </nav>
+</footer>
 </html>
